@@ -1,0 +1,35 @@
+# --- Web / API ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# --- Config / models ---
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1
+
+# --- LLM providers (free tier) ---
+google-genai==1.9.0
+groq==0.15.0
+
+# --- Document ingestion ---
+pdfplumber==0.11.5
+pypdf==5.1.0
+pillow==11.1.0
+pytesseract==0.3.13
+pandas==2.2.3
+openpyxl==3.1.5
+reportlab==4.2.5          # used by the sample-data generator to build demo PDFs
+
+# --- Code generation / templating ---
+jinja2==3.1.5
+pyyaml==6.0.2
+
+# --- Generated-code validation (running the generated connector tests) ---
+requests>=2.31.0
+
+# --- Resilience / CLI / tests ---
+tenacity==9.0.0
+typer>=0.16.1          # 0.15.x is incompatible with click >= 8.2 (make_metavar signature)
+rich==13.9.4
+pytest==8.3.4

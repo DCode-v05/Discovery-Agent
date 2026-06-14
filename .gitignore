@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Env / secrets
+.env
+
+# Run artifacts / outputs
+data/runs/*.jsonl
+out/
+*.zip
+
+# Node / frontend
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

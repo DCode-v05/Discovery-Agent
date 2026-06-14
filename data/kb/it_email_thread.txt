@@ -1,0 +1,19 @@
+From: priya.n@acme.example
+To: it-ops@acme.example
+Subject: Re: backlog cleanup before the integration project
+
+Hi all,
+
+Quick notes from today's sync so we don't lose them:
+
+- Reminder that we still log customer support tickets in Zendesk. Nobody owns the
+  migration yet, so for now treat it as out of scope but don't delete the account.
+- The marketing team wants their lead-capture automation platform connected to the CRM
+  so new leads route to Salesforce automatically. They'll share the platform details
+  later this week.
+- Finance confirmed Stripe payouts should land in the warehouse for the revenue dashboard.
+
+Will follow up after the architecture review.
+
+Thanks,
+Priya

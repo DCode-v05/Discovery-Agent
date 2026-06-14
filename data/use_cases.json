@@ -1,0 +1,44 @@
+[
+  {
+    "id": "uc1",
+    "name": "Quote-to-Cash sync",
+    "description": "When a Salesforce Opportunity is Closed-Won, create the matching Sales Order and Invoice in NetSuite automatically.",
+    "frequency_per_year": 5200,
+    "criticality": "critical"
+  },
+  {
+    "id": "uc2",
+    "name": "Procure-to-Pay automation",
+    "description": "Sync approved Purchase Orders from Coupa into NetSuite as Vendor Bills for payment.",
+    "frequency_per_year": 1200,
+    "criticality": "high"
+  },
+  {
+    "id": "uc3",
+    "name": "New-hire provisioning",
+    "description": "When HR adds an employee in Workday, provision their Okta identity and a Salesforce seat.",
+    "frequency_per_year": 300,
+    "criticality": "high"
+  },
+  {
+    "id": "uc4",
+    "name": "Revenue reporting pipeline",
+    "description": "Load NetSuite financials and Stripe payouts into Snowflake nightly for the revenue dashboard.",
+    "frequency_per_year": 365,
+    "criticality": "high"
+  },
+  {
+    "id": "uc5",
+    "name": "Support ticket enrichment",
+    "description": "Push resolved Zendesk tickets into Salesforce as Cases linked to the Account.",
+    "frequency_per_year": 8000,
+    "criticality": "medium"
+  },
+  {
+    "id": "uc6",
+    "name": "Marketing lead routing",
+    "description": "Route new leads from the marketing automation platform into Salesforce as Leads.",
+    "frequency_per_year": 15000,
+    "criticality": "medium"
+  }
+]
